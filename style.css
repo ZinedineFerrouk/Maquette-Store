@@ -1,3 +1,121 @@
-body{
-    
+@font-face {
+    font-family: "Montserat";
+    src: url(assets/font/montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(assets/font/roboto/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+#top-nav {
+    font-family: "Montserat";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#top-nav-ul {
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#top-nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+#nav-icon {
+    display: flex;
+    margin-right: 0.7rem;
+}
+
+.fa-shopping-cart {
+    margin-right: 0.7rem;
+}
+
+/* Aside */
+
+aside {
+    font-family: "Montserat";
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: left;
+    height: 1000px;
+}
+
+aside h1 {
+    padding-left: 20px;
+}
+
+aside li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+#contact {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* Presentation image */
+#img-presentation {
+    background-image: url(/assets/img/jeans.jpg);
+    font-family: "Montserat";
+    height: 500px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    width: 70%;
+
+    margin-left: 20%;
+    margin-right: 10%;
+
+    letter-spacing: 0.3rem;
+}
+
+#img-presentation h1,
+#img-presentation h2, 
+#img-presentation button {
+    font-weight: normal;
+    font-family: "Montserat";
+
+    margin-left: 5%;
+}
+
+#img-presentation button{
+    background-color: black;
+    padding: 0.7rem 1.2rem;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+section{
+    font-family: 'Montserat';
 }
