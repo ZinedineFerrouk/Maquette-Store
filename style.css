@@ -78,7 +78,7 @@ aside li {
 
 /* Presentation image */
 #img-presentation {
-    background-image: url(/assets/img/jeans.jpg);
+    background-image: url(assets/img/jeans.jpg);
     font-family: "Montserat";
     height: 500px;
 
@@ -118,4 +118,24 @@ aside li {
 
 section{
     font-family: 'Montserat';
+}
+
+figure{
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#captions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#captions img {
+    width: 25%;
+    padding: 1rem;
+    box-sizing: border-box;
 }
