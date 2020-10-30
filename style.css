@@ -3,11 +3,6 @@
     src: url(assets/font/montserrat/Montserrat-Regular.ttf);
 }
 
-@font-face {
-    font-family: "Roboto";
-    src: url(assets/font/roboto/Roboto-Regular.ttf);
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -80,7 +75,7 @@ aside li {
 #img-presentation {
     background-image: url(assets/img/jeans.jpg);
     font-family: "Montserat";
-    height: 500px;
+    height: 650px;
 
     display: flex;
     align-items: flex-start;
@@ -100,7 +95,7 @@ aside li {
 }
 
 #img-presentation h1,
-#img-presentation h2, 
+#img-presentation h2,
 #img-presentation button {
     font-weight: normal;
     font-family: "Montserat";
@@ -108,7 +103,7 @@ aside li {
     margin-left: 5%;
 }
 
-#img-presentation button{
+#img-presentation button {
     background-color: black;
     padding: 0.7rem 1.2rem;
     color: white;
@@ -116,11 +111,11 @@ aside li {
     font-size: 15px;
 }
 
-section{
+section {
     font-family: 'Montserat';
 }
 
-figure{
+figure {
     width: 70%;
     margin-left: 20%;
     margin-right: 10%;
@@ -131,11 +126,122 @@ figure{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 70%;
 }
 
 #captions img {
     width: 25%;
     padding: 1rem;
     box-sizing: border-box;
+}
+
+/* Subscribe section */
+#subscribe-section {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#subscribe-section h2 {
+    font-size: 3rem;
+}
+
+#subscribe-section input {
+    width: 98%;
+    height: 30px;
+}
+
+#subscribe-section button {
+    height: 30px;
+    width: 15%;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+#section-div {
+    padding: 1rem 0 1rem 1rem
+}
+
+/* Contact Section */
+#contact-section {
+    background-color: rgb(230, 225, 225);
+    margin-left: 20%;
+    margin-right: 10%;
+    height: 400px;
+    display: flex;
+}
+
+#contact {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+}
+
+#contact:first-child {
+    text-align: center;
+}
+
+#form-contact input {
+    border: 1px solid lightgray;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+#form-contact button {
+    width: 90%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+/* About Div */
+#about-div{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    width: calc(100%/3);
+}
+
+#store{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    width: calc(100%/3);
+}
+
+#store i {
+    display: block;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.icon-store{
+    margin: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: grey;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;
 }
